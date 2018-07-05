@@ -128,6 +128,7 @@ html {
 
   img {
     width: 100%;
+    height: 100%;
     object-fit: cover;
   }
 
@@ -155,6 +156,12 @@ html {
   .section__header {
     padding-top: 25px;
     padding-bottom: 20px;
+  }
+  .img-sm {
+    height: 200px;
+    @include phone {
+      height: auto;
+    }
   }
 }
 
@@ -241,6 +248,7 @@ html {
     }
     @include phone {
       width: 100%;
+      max-height: none;
     }
 
     &:not(:last-child) {
@@ -565,18 +573,6 @@ html {
     }
   }
 }
-
 .icon {
   display: block;
-}
-
-.test {
-  @include tablet {
-    min-height: 600px;
-  }
-    img {
-    @include tablet {
-      height: 100%;
-    }
-  }
 }
