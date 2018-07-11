@@ -26,13 +26,15 @@
 <body>
   <!--header start-->
   <header>
-    <nav class="nav">
-      <ul>
+    <nav class="nav flex">
+      <ul >
         <li class="nav__item "><a class="dot" href="#">about us</a> </li>
         <li class="nav__item"><a href="#">work</a> </li>
-        <li class="nav__logo">
-          <span class="icon logo"></span>
-        </li>
+      </ul>
+      <div class="nav__logo">
+        <span class="icon logo"></span>
+      </div>
+      <ul>
         <li class="nav__item"><a class="dot" href="#">shop</a> </li>
         <li class="nav__item"><a href="#">contact</a> </li>
       </ul>
@@ -47,8 +49,7 @@
   <div class="section section-center flex bg-gray">
     <span class="icon icon-1"></span>
     <h1 class="section__header">A NEW GENERATION OF VINTAGE BIKE</h1>
-    <p class="section__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It
-      has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+    <p class="section__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
   </div>
 
   <div class="section section-img flex">
@@ -60,10 +61,9 @@
       <div class="section__description flex">
         <span class="icon icon-2"></span>
         <h2 class="section__header">vintage Oliva</h2>
-        <p class="section-img__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-          It has survived.</p>
+        <p class="section-img__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
       </div>
-      <div class="img-sm">
+      <div class="block-sm__img">
         <img src="resources/images/work-2.png" alt="">
       </div>
     </div>
@@ -71,18 +71,17 @@
       <div class="section__description flex">
         <span class="icon icon-3"></span>
         <h2 class="section__header">La Boriosa</h2>
-        <p class="section-img__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-          It has survived.</p>
+        <p class="section-img__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived.</p>
       </div>
-      <div class="img-sm">
-        <img src="resources/images/work-4.png" alt="">
-      </div>
+        <div class="block-sm__img">
+      <img src="resources/images/work-4.png" alt="">
+        </div>
     </div>
     <div class="block-lg ">
       <img src="resources/images/work-3.png" alt="">
       <span class="icon logo-2 icon-abs"></span>
     </div>
-    <div class="block-sm ">
+    <div class="block-sm height-400">
       <img src="resources/images/work-5.png" alt="">
       <span class="icon logo-3 icon-abs"></span>
     </div>
@@ -93,16 +92,16 @@
         <p class="section-img__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
           It has survived.</p>
       </div>
-      <div class="img-sm">
-        <img src="resources/images/work-6.png" alt="">
+        <div class="block-sm__img">
+      <img src="resources/images/work-6.png" alt="">
       </div>
     </div>
-    <div class="block-sm">
+    <div class="block-sm height-400">
       <img src="resources/images/work-7.png" alt="">
     </div>
   </div>
 
-  <div class="section section-center flex bg-gray">
+  <div class="section section-slider flex bg-gray">
     <div class="swiper-container">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
@@ -125,48 +124,50 @@
     </div>
   </div>
 
-  <div class="section ">
+  <div class="section">
     <div class="section-shop flex">
-    <div class="block-sm flex">
-      <div class="width-50">
-        <img src="resources/images/shop-1.png" alt="">
+      <div class="block-sm flex">
+        <div class="width-50">
+          <img src="resources/images/shop-1.png" alt="">
+        </div>
+        <div class="width-50">
+          <img src="resources/images/shop-3.png" alt="">
+        </div>
+        <div class="width-100">
+          <img src="resources/images/shop-2.png" alt="">
+        </div>
       </div>
-      <div class="width-50">
-        <img src="resources/images/shop-3.png" alt="">
+      <div class="block-sm flex">
+        <div class="width-50">
+          <img src="resources/images/shop-4.png" alt="">
+        </div>
+        <div class="width-50">
+          <img src="resources/images/shop-5.png" alt="">
+        </div>
       </div>
-      <div class="width-100">
-        <img src="resources/images/shop-2.png" alt="">
-      </div>
-    </div>
-    <div class="block-sm flex">
-      <div class="width-50">
-        <img src="resources/images/shop-4.png" alt="">
-      </div>
-      <div class="width-50">
-        <img src="resources/images/shop-5.png" alt="">
-      </div>
-    </div>
-    <div class="block-sm flex">
-      <div class="width-100">
-        <a href="#" class="link-to-shop">
+      <div class="block-sm flex">
+        <div class="width-100">
+          <a href="#" class="link-to-shop">
             <img src="resources/images/shop-6.png" alt="">
             <div class="icon-abs">
                 <span class="icon shop"></span>
                 <p>Shop now</p>
             </div>
           </a>
-      </div>
-      <div class="width-50">
-        <img src="resources/images/shop-7.png" alt="">
-      </div>
-      <div class="width-50">
-        <img src="resources/images/shop-8.png" alt="">
+        </div>
+        <div class="width-50">
+          <img src="resources/images/shop-7.png" alt="">
+        </div>
+        <div class="width-50">
+          <img src="resources/images/shop-8.png" alt="">
+        </div>
       </div>
     </div>
-        </div>
-        <div class="bg-black shop-line flex">
-          <a href="#" class="btn btn__shop flex ">DISCOVER THE SHOP</a>
-        </div>
+    <div class="bg-black">
+      <div class="flex shop-line">
+        <a href="#" class="btn btn__shop flex ">DISCOVER THE SHOP</a>
+      </div>
+    </div>
   </div>
 
   <div class="section section-center flex section-form">
@@ -176,7 +177,7 @@
     <p class="text-thin">Stay on the saddle!</p>
     <form class="form flex" action="#" method="post">
       <input class="form__control" type="text" placeholder="enter your email...">
-      <button class="btn btn__form flex ">go</button>
+      <button class="btn btn__form flex " type="submit">go</button>
     </form>
   </div>
   <!-- content end-->
@@ -191,9 +192,25 @@
         <p>New York, NY 10035 - info@domain.com</p>
       </div>
       <div class="social-links flex">
-        <a href="#"><span class="icon twitter-s"></span></a>
-        <a href="#"><span class="icon fb"></span></a>
-        <a href="#"><span class="icon p"></span></a>
+        <a href="#" class="social-links__item social-links_tw flex">
+          <svg  title="twitter">
+            <use xlink:href="resources/images/icons.svg#twitter"></use>
+          </svg>
+          <!-- <span class="icon twitter-s"></span> -->
+        </a>
+        <a href="#" class="social-links__item social-links_fb flex">
+          <svg  title="fb">
+            <use xlink:href="resources/images/icons.svg#fb"></use>
+          </svg>
+          <!-- <span class="icon fb"></span> -->
+        </a>
+        <a href="#" class="social-links__item social-links_pin flex">
+          <svg  title="pin">
+            <use xlink:href="resources/images/icons.svg#pin"></use>
+          </svg>
+
+          <!-- <span class="icon p"></span> -->
+        </a>
       </div>
       <div class="author flex">
         <p>Handcrafted by</p>

@@ -1,0 +1,222 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$fb-name: 'fb';
+$fb-x: 183px;
+$fb-y: 152px;
+$fb-offset-x: -183px;
+$fb-offset-y: -152px;
+$fb-width: 35px;
+$fb-height: 34px;
+$fb-total-width: 385px;
+$fb-total-height: 270px;
+$fb-image: 'dist/resources/images/sprite-violet.png';
+$fb: (183px, 152px, -183px, -152px, 35px, 34px, 385px, 270px, 'dist/resources/images/sprite-violet.png', 'fb', );
+$icon-1-name: 'icon-1';
+$icon-1-x: 271px;
+$icon-1-y: 67px;
+$icon-1-offset-x: -271px;
+$icon-1-offset-y: -67px;
+$icon-1-width: 52px;
+$icon-1-height: 43px;
+$icon-1-total-width: 385px;
+$icon-1-total-height: 270px;
+$icon-1-image: 'dist/resources/images/sprite-violet.png';
+$icon-1: (271px, 67px, -271px, -67px, 52px, 43px, 385px, 270px, 'dist/resources/images/sprite-violet.png', 'icon-1', );
+$icon-2-name: 'icon-2';
+$icon-2-x: 271px;
+$icon-2-y: 110px;
+$icon-2-offset-x: -271px;
+$icon-2-offset-y: -110px;
+$icon-2-width: 41px;
+$icon-2-height: 30px;
+$icon-2-total-width: 385px;
+$icon-2-total-height: 270px;
+$icon-2-image: 'dist/resources/images/sprite-violet.png';
+$icon-2: (271px, 110px, -271px, -110px, 41px, 30px, 385px, 270px, 'dist/resources/images/sprite-violet.png', 'icon-2', );
+$icon-3-name: 'icon-3';
+$icon-3-x: 218px;
+$icon-3-y: 152px;
+$icon-3-offset-x: -218px;
+$icon-3-offset-y: -152px;
+$icon-3-width: 32px;
+$icon-3-height: 32px;
+$icon-3-total-width: 385px;
+$icon-3-total-height: 270px;
+$icon-3-image: 'dist/resources/images/sprite-violet.png';
+$icon-3: (218px, 152px, -218px, -152px, 32px, 32px, 385px, 270px, 'dist/resources/images/sprite-violet.png', 'icon-3', );
+$icon-4-name: 'icon-4';
+$icon-4-x: 113px;
+$icon-4-y: 186px;
+$icon-4-offset-x: -113px;
+$icon-4-offset-y: -186px;
+$icon-4-width: 23px;
+$icon-4-height: 41px;
+$icon-4-total-width: 385px;
+$icon-4-total-height: 270px;
+$icon-4-image: 'dist/resources/images/sprite-violet.png';
+$icon-4: (113px, 186px, -113px, -186px, 23px, 41px, 385px, 270px, 'dist/resources/images/sprite-violet.png', 'icon-4', );
+$logo-1-name: 'logo-1';
+$logo-1-x: 0px;
+$logo-1-y: 152px;
+$logo-1-offset-x: 0px;
+$logo-1-offset-y: -152px;
+$logo-1-width: 113px;
+$logo-1-height: 118px;
+$logo-1-total-width: 385px;
+$logo-1-total-height: 270px;
+$logo-1-image: 'dist/resources/images/sprite-violet.png';
+$logo-1: (0px, 152px, 0px, -152px, 113px, 118px, 385px, 270px, 'dist/resources/images/sprite-violet.png', 'logo-1', );
+$logo-2-name: 'logo-2';
+$logo-2-x: 0px;
+$logo-2-y: 0px;
+$logo-2-offset-x: 0px;
+$logo-2-offset-y: 0px;
+$logo-2-width: 177px;
+$logo-2-height: 152px;
+$logo-2-total-width: 385px;
+$logo-2-total-height: 270px;
+$logo-2-image: 'dist/resources/images/sprite-violet.png';
+$logo-2: (0px, 0px, 0px, 0px, 177px, 152px, 385px, 270px, 'dist/resources/images/sprite-violet.png', 'logo-2', );
+$logo-3-name: 'logo-3';
+$logo-3-x: 177px;
+$logo-3-y: 0px;
+$logo-3-offset-x: -177px;
+$logo-3-offset-y: 0px;
+$logo-3-width: 208px;
+$logo-3-height: 67px;
+$logo-3-total-width: 385px;
+$logo-3-total-height: 270px;
+$logo-3-image: 'dist/resources/images/sprite-violet.png';
+$logo-3: (177px, 0px, -177px, 0px, 208px, 67px, 385px, 270px, 'dist/resources/images/sprite-violet.png', 'logo-3', );
+$logo-name: 'logo';
+$logo-x: 177px;
+$logo-y: 67px;
+$logo-offset-x: -177px;
+$logo-offset-y: -67px;
+$logo-width: 94px;
+$logo-height: 85px;
+$logo-total-width: 385px;
+$logo-total-height: 270px;
+$logo-image: 'dist/resources/images/sprite-violet.png';
+$logo: (177px, 67px, -177px, -67px, 94px, 85px, 385px, 270px, 'dist/resources/images/sprite-violet.png', 'logo', );
+$p-name: 'p';
+$p-x: 113px;
+$p-y: 152px;
+$p-offset-x: -113px;
+$p-offset-y: -152px;
+$p-width: 35px;
+$p-height: 34px;
+$p-total-width: 385px;
+$p-total-height: 270px;
+$p-image: 'dist/resources/images/sprite-violet.png';
+$p: (113px, 152px, -113px, -152px, 35px, 34px, 385px, 270px, 'dist/resources/images/sprite-violet.png', 'p', );
+$twitter-s-name: 'twitter-s';
+$twitter-s-x: 148px;
+$twitter-s-y: 152px;
+$twitter-s-offset-x: -148px;
+$twitter-s-offset-y: -152px;
+$twitter-s-width: 35px;
+$twitter-s-height: 34px;
+$twitter-s-total-width: 385px;
+$twitter-s-total-height: 270px;
+$twitter-s-image: 'dist/resources/images/sprite-violet.png';
+$twitter-s: (148px, 152px, -148px, -152px, 35px, 34px, 385px, 270px, 'dist/resources/images/sprite-violet.png', 'twitter-s', );
+$twitter-name: 'twitter';
+$twitter-x: 312px;
+$twitter-y: 110px;
+$twitter-offset-x: -312px;
+$twitter-offset-y: -110px;
+$twitter-width: 32px;
+$twitter-height: 27px;
+$twitter-total-width: 385px;
+$twitter-total-height: 270px;
+$twitter-image: 'dist/resources/images/sprite-violet.png';
+$twitter: (312px, 110px, -312px, -110px, 32px, 27px, 385px, 270px, 'dist/resources/images/sprite-violet.png', 'twitter', );
+$yebo-name: 'yebo';
+$yebo-x: 323px;
+$yebo-y: 67px;
+$yebo-offset-x: -323px;
+$yebo-offset-y: -67px;
+$yebo-width: 55px;
+$yebo-height: 36px;
+$yebo-total-width: 385px;
+$yebo-total-height: 270px;
+$yebo-image: 'dist/resources/images/sprite-violet.png';
+$yebo: (323px, 67px, -323px, -67px, 55px, 36px, 385px, 270px, 'dist/resources/images/sprite-violet.png', 'yebo', );
+$spritesheet-width: 385px;
+$spritesheet-height: 270px;
+$spritesheet-image: 'dist/resources/images/sprite-violet.png';
+$spritesheet-sprites: ($fb, $icon-1, $icon-2, $icon-3, $icon-4, $logo-1, $logo-2, $logo-3, $logo, $p, $twitter-s, $twitter, $yebo, );
+$spritesheet: (385px, 270px, 'dist/resources/images/sprite-violet.png', $spritesheet-sprites, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}

@@ -111,12 +111,12 @@ gulp.task('default', gulp.series('dev'));
 //   .pipe(gulp.dest('dist'));
 // });
 
-// gulp.task('svg', function () {
-//   return gulp.src('src/resources/images/svg/*.svg')
-//   .pipe(svgSymbols())
-//   .pipe(rename(function(file) {
-//                 file.basename = 'icons';
-//                 return file;
-//             }))
-//   .pipe(gulp.dest('dist/resources/images/'));
-// });
+gulp.task('svg', function () {
+  return gulp.src('src/resources/images/svg/*.svg')
+  .pipe(svgSymbols())
+  .pipe(rename(function(file) {
+                file.basename = 'icons';
+                return file;
+            }))
+  .pipe(gulp.dest('dist/resources/images/'));
+});
