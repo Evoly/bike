@@ -280,7 +280,6 @@ html {
     @include phone {
       width: 100%;
       min-height: auto;
-      //height: 400px;
     }
 
     &:not(:last-child) {
@@ -291,6 +290,9 @@ html {
     &.height-400 {
       @include phone {
         height: 400px;
+      }
+      @include phone_xs {
+        height: 200px;
       }
     }
   }

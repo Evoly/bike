@@ -679,6 +679,9 @@ html {
   @media (max-width: 767px) {
     .section .block-sm.height-400 {
       height: 400px; } }
+  @media (max-width: 639px) {
+    .section .block-sm.height-400 {
+      height: 200px; } }
 
 .section__description {
   -ms-flex-direction: column;
