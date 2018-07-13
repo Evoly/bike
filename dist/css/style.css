@@ -741,20 +741,22 @@ html {
     object-fit: cover; }
   .section-shop .link-to-shop {
     display: block;
-    position: relative; }
+    position: relative;
+    height: 100%; }
     .section-shop .link-to-shop:hover:before {
       content: '';
       display: block;
       position: absolute;
       width: 100%;
       height: 100%;
-      background-color: rgba(100, 194, 158, 0.8);
+      background-color: rgba(100, 194, 158, 0.7);
       top: 0;
       left: 0;
       right: 0;
       bottom: 0;
       z-index: 1; }
     .section-shop .link-to-shop .icon-abs {
+      display: none;
       position: absolute;
       top: 0;
       left: 0;
@@ -766,10 +768,13 @@ html {
       font-size: 14px;
       font-family: "Lato Bold";
       text-transform: uppercase;
-      color: #fff; }
+      color: #fff;
+      z-index: 2; }
       .section-shop .link-to-shop .icon-abs p {
         padding-top: 10px;
         text-align: center; }
+    .section-shop .link-to-shop:hover .icon-abs {
+      display: block; }
     .section-shop .link-to-shop .shop {
       margin: 0 auto; }
     .section-shop .link-to-shop:hover {
