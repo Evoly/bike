@@ -454,7 +454,7 @@ html {
   position: absolute;
   width: 100%;
   min-height: 90px;
-  top: 40px;
+  top: 55px;
   left: 0;
   right: 0;
   -ms-flex-direction: row;
@@ -502,8 +502,8 @@ html {
     text-transform: uppercase;
     letter-spacing: 0.2em;
     line-height: 1.2;
-    padding-left: 35px;
-    padding-right: 35px; }
+    padding-left: 30px;
+    padding-right: 30px; }
     @media (max-width: 639px) {
       .nav__item {
         line-height: 2.5; } }
@@ -727,6 +727,7 @@ html {
   line-height: 0; }
   .section-shop .block-sm {
     max-height: 535px;
+    min-height: auto;
     width: 33.333%;
     -ms-flex-direction: row;
         flex-direction: row;
@@ -743,7 +744,7 @@ html {
     display: block;
     position: relative;
     height: 100%; }
-    .section-shop .link-to-shop:hover:before {
+    .section-shop .link-to-shop:before {
       content: '';
       display: block;
       position: absolute;
@@ -754,9 +755,14 @@ html {
       left: 0;
       right: 0;
       bottom: 0;
-      z-index: 1; }
+      z-index: 1;
+      transition: opacity 5s;
+      opacity: 0;
+      transition: 0.3s ease-in-out; }
+    .section-shop .link-to-shop:hover:before {
+      opacity: 1; }
     .section-shop .link-to-shop .icon-abs {
-      display: none;
+      opacity: 0;
       position: absolute;
       top: 0;
       left: 0;
@@ -769,17 +775,15 @@ html {
       font-family: "Lato Bold";
       text-transform: uppercase;
       color: #fff;
-      z-index: 2; }
+      z-index: 2;
+      transition: .6s; }
       .section-shop .link-to-shop .icon-abs p {
         padding-top: 10px;
         text-align: center; }
     .section-shop .link-to-shop:hover .icon-abs {
-      display: block; }
+      opacity: 1; }
     .section-shop .link-to-shop .shop {
       margin: 0 auto; }
-    .section-shop .link-to-shop:hover {
-      opacity: .7;
-      transition: 0.3s ease-in-out; }
 
 .shop-line {
   height: 200px;
@@ -822,8 +826,7 @@ html {
         flex-direction: column;
     -ms-flex-pack: start;
         justify-content: flex-start;
-    min-height: 280px;
-    padding-bottom: 20px; }
+    padding-bottom: 108px; }
     @media (max-width: 639px) {
       .swiper-container .swiper-slide {
         padding-top: 30px; } }
